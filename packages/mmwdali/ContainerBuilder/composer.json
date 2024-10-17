@@ -1,0 +1,20 @@
+{
+    "name": "mmwdali/container-builder",
+    "description": "container-builder with full options",
+    "authors": [
+        {
+            "name": "mmwdali",
+            "email": "ali13hosseiny81@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mmwdali\\ContainerBuilder" : "src/"
+        }
+    },
+    "require": {
+        "illuminate/Support": "^6|^7|^8|^9",
+        "nette/php-generator": "^4.0",
+        "prettus/l5-repository": "^2.8"
+    }
+}
