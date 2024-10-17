@@ -14,6 +14,7 @@ use App\Util;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
+
 class CreateArticleAction
 {
 	public ArticleRepositoryEloquent $repository;
